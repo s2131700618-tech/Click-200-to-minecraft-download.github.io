@@ -26,6 +26,28 @@ p {
   margin: 0;
 }
 
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: solid 3px #FFFFFF;
+  border-radius: 12px;
+  font-size: 24px;
+  transition: 1s;
+  background-color: transparent; /* 透明背景 */
+  color: #FFFFFF;                /* 修改文字顏色為白色 */
+}
+
+button:hover {
+  background-color: #FFFFFF33;
+  transform: translateY(5px);
+}
+
+button:active {
+  background-color: #FFFFFF;
+  transform: translateY(0px);
+  transform: scale(0.95);
+}
+
 .txt {
-  font-size: 12px;
+  font-size: 10px;
 }
